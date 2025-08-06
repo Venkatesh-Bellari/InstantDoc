@@ -1,0 +1,10 @@
+
+{
+  "name": "InstantDoc - AI Health Companion",
+  "description": "An AI-powered health assistant offering voice assistance, symptom checking (text & visual), lab report analysis, mental health support, meal/fitness planning, and nutritional insights.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "prompt": ""
+}

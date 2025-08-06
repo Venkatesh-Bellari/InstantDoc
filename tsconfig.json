@@ -1,0 +1,49 @@
+
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": false, // Set to true for stricter checks
+    "noUnusedParameters": false, // Set to true for stricter checks
+    "noFallthroughCasesInSwitch": true,
+    
+    /* Types */
+    "types": [],
+
+
+    /* Path Aliases */
+    "baseUrl": ".",
+    "paths": {
+      "@/components/icons": ["components/icons/index.tsx"],
+      "@/components/*": ["components/*"] // Added alias
+      // Add other aliases here if needed, matching vite.config.ts
+      // e.g., "@/services/*": ["services/*"],
+    }
+  },
+  "include": [
+    "index.tsx",
+    "App.tsx",
+    "types.ts",
+    "constants.ts",
+    "services/**/*.ts",
+    "services/**/*.tsx",
+    "components/**/*.ts",
+    "components/**/*.tsx",
+    "vite.config.ts"
+  ],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
