@@ -84,7 +84,7 @@ If you need to create an optimized build of the application for deployment:
 - **General AI Chat:** For general health and wellness inquiries.
 - **Emergency Alert System:** AI can detect potential emergencies and guide users to contact services or saved contacts. Includes location sharing.
 - **User Authentication & Profile:** Secure login/signup and personal health profile management.
-- **Emergency Contacts:** Users can save emergency contacts for quick actions during alerts.
+- **Emergency Contacts:** Users can save emergency contacts for quick actions during alerts and emergency situations.
 - **Medicine Reminders:** Set reminders for medications with desktop notification support.
 - **Multilingual Support:** Chat interface supports multiple languages for AI interaction and Text-to-Speech output.
 - **Responsive Design:** Adapts to various screen sizes.
