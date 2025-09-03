@@ -13,7 +13,7 @@ Before you begin, ensure you have the following installed:
 1.  **Clone the Repository (if you haven't already):**
     If you've downloaded the source code as a ZIP, extract it. Otherwise, if it's a Git repository:
     ```bash
-    git clone <repository-url>
+    git clone <https://github.com/Venkatesh-Bellari/InstantDoc>
     cd instantdoc-ai-health-companion
     ```
 
