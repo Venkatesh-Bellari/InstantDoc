@@ -94,7 +94,7 @@ If you need to create an optimized build of the application for deployment:
 - **Frontend:** React, TypeScript
 - **Build Tool:** Vite
 - **Styling:** Tailwind CSS
-- **AI Integration:** Google Gemini API (`@google/genai`)
+- **AI Integration:** Google Gemini API 
 - **State Management:** React Hooks (useState, useEffect, useCallback)
 - **Routing:** Implicit (view management within App.tsx)
 - **Browser APIs:** Geolocation, Notification API, SpeechSynthesis API
